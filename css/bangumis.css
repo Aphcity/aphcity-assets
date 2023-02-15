@@ -1,0 +1,37 @@
+.bangumi-info-items {
+  color: #fb7299 !important;
+}
+.bangumi-info-item {
+  border: 1px solid #fb7299 !important;
+  padding: 4px 10px !important;
+  border-radius: 10px !important;
+  width: fit-content !important;
+  height: 40px !important;
+}
+.bangumi-item {
+  border: 5px solid #fb7299 !important;
+  padding: 0px 10px !important;
+  border-radius: 15px !important;
+  min-height: 198px !important;
+  margin: 20px;
+}
+.bangumi-picture {
+  left: unset !important;
+}
+
+img.entered.loaded {
+  border-radius: 10px !important;
+}
+.bangumi-active,
+.bangumi-button {
+  background: #fb7299 !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+}
+.bangumi-tab,
+.bangumi-button {
+  padding-top: 6px !important;
+}
+.bangumi-title a {
+  color: #fb7299 !important;
+}
