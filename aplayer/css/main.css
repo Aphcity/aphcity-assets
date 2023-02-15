@@ -39,7 +39,7 @@ body:has(#heoMusic-page) {
 }
 
 #heoMusic-page meting-js .aplayer {
-  max-height: calc(var(--vh) * 0.75);
+  max-height: calc(var(--vh) - 220px);
   display: flex;
   flex-direction: row-reverse;
   background: rgba(0, 0, 0, 0);
@@ -298,7 +298,7 @@ body:has(#heoMusic-page) #nav-music {
   min-width: 200px;
 }
 #heoMusic-page ol {
-  max-height: calc(var(--vh) * 0.75) !important;
+  max-height: calc(var(--vh) - 220px) !important;
 }
 
 #heoMusic-page ol::-webkit-scrollbar-thumb {
@@ -695,4 +695,10 @@ h1 {
 #page h1.page-title {
   text-align: center;
   margin: 0px 0 0px;
+}
+
+@media screen and (max-width: 768px) {
+  [data-theme="dark"] #heoMusic-page .aplayer-list {
+    background: #000;
+  }
 }
