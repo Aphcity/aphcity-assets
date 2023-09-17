@@ -1,7 +1,7 @@
 /*电子钟字体*/
 @font-face {
   font-family: "LCD2";
-  src: url("https://cdn.staticaly.com/gh/Aphcity/aphcity-assets@master/fonts/LCD2Ultra.TTF");
+  src: url("https://cdn.statically.io/gh/Aphcity/aphcity-assets@master/fonts/LCD2Ultra.TTF");
   font-display: swap;
 }
 div#runtime {
