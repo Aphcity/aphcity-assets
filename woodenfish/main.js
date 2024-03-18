@@ -1,23 +1,23 @@
 console.clear();
 
 // 本地:
-const sound = new Howl({src: ['./assets/sound.mp3']});
-const bgm = new Howl({src: ['./assets/bgm.mp3'], html5:true, loop: true, volume: 0.2});
+// const sound = new Howl({src: ['./assets/sound.mp3']});
+// const bgm = new Howl({src: ['./assets/bgm.mp3'], html5:true, loop: true, volume: 0.2});
 
 // 网络:
-// const sound = new Howl({
-//     src: [
-//         "https://github.com/liuxiyuan-2022/EWoodenFish/blob/main/src/assets/sound.mp3?raw=true",
-//     ],
-// });
-// const bgm = new Howl({
-//     src: [
-//         "https://github.com/liuxiyuan-2022/EWoodenFish/blob/main/src/assets/bgm.mp3?raw=true",
-//     ],
-//     html5: true,
-//     loop: true,
-//     volume: 0.2,
-// });
+const sound = new Howl({
+    src: [
+        "https://jsd.cdn.zzko.cn/gh/Aphcity/aphcity-assets@master/woodenfish/sound.mp3?raw=true",
+    ],
+});
+const bgm = new Howl({
+    src: [
+        "https://jsd.cdn.zzko.cn/gh/Aphcity/aphcity-assets@master/woodenfish/bgm.mp3?raw=true",
+    ],
+    html5: true,
+    loop: true,
+    volume: 0.2,
+});
 
 var ringId = 0;
 var bgmId = 0;
